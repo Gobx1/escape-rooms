@@ -23,7 +23,6 @@ public class EscapeRoomsApplication {
         System.out.println("Entrée dans la salle 2 : ");
         EscapeRoom2Controller room2 = (EscapeRoom2Controller) ctx.getBean("room2");
         room2.entreeSalle2();
-
         System.out.println("Entrée dans la salle du trésor : ");
 
         TreasureRoomController treasureRoom = ctx.getBean(TreasureRoomController.class);
